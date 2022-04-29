@@ -65,6 +65,13 @@
 - [Event Driven Collaboration [eng] / Ian Cooper](https://www.youtube.com/watch?v=ztRwZ2FySds)
 - [Gotchas! in Event Driven Architecture - What you need to be aware of](https://www.youtube.com/watch?v=NzEaI1UtiGk)
 - [Light and Dark Side of the Event-Driven Design • Oskar Dudycz • Devoxx Poland 2021](https://www.youtube.com/watch?v=0pYmuk0-N_4)
-
-## Books
+- [How to DESIGN EVENT-DRIVEN applications! The best method for production applications!](https://www.youtube.com/watch?v=LaxH8GS8l3Q)
+- [Building a Webhooks System](https://www.youtube.com/watch?v=NuHC5uwbFAc)
+- [The Dark Side of Events](https://www.youtube.com/watch?v=URYPpY3SgS8)
+- [Event Driven Architecture in the Real World! 4 Practical Examples](https://www.youtube.com/watch?v=dhdLxW0vDro)
+- [Event Driven Architecture - Understanding the Basics](https://www.youtube.com/watch?v=LHgCA3XVNkw)
+## 📚 Books
 - [Designing Event-Driven Systems](https://www.confluent.io/designing-event-driven-systems/)
+- [Building Event-Driven Microservices: Leveraging Organizational Data at Scale](https://www.amazon.com/Building-Event-Driven-Microservices-Leveraging-Organizational/dp/1492057894)
+- [Flow Architectures: The Future of Streaming and Event-Driven Integration](https://www.amazon.com/Flow-Architectures-Streaming-Event-Driven-Integration/dp/1492075892/)
+- [Practical Event-Driven Microservices Architecture: Building Sustainable and Highly Scalable Event-Driven Microservices](https://www.amazon.com/Practical-Event-Driven-Microservices-Architecture-Sustainable/dp/1484274679/)

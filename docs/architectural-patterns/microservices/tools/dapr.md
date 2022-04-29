@@ -42,7 +42,7 @@
 - [Learn all about the latest features in Dapr](https://www.youtube.com/watch?v=I7A1bdoKV5M)
 - [Distributed Application Runtime, Introduction for .Net Developers](https://www.youtube.com/watch?v=ruQFIPZl2QM)
 - [Building reliable and portable microservices with Dapr and .NET](https://www.youtube.com/watch?v=Cb0tyU9uSLQ)
-
+- [Sidecar Pattern to SIMPLIFY services or just more COMPLEXITY?](https://www.youtube.com/watch?v=9zAjtcf9Wyo)
 ## 📦 Libraries
 - [dapr/dashboard](https://github.com/dapr/dashboard) - General purpose dashboard for Dapr
 
@@ -61,10 +61,8 @@
 - [baotoq/micro-commerce](https://github.com/baotoq/micro-commerce) - React, Nextjs, ASP.NET Core 5.0, IdentityServer, Dapr, Azure pipeline, K8S, SonarQube
 - [andreatosato/dapr-cloudchampion](https://github.com/andreatosato/dapr-cloudchampion)
 
-## Books
+## 📚 Books
 - [Dapr for .NET Developers](https://docs.microsoft.com/en-us/dotnet/architecture/dapr-for-net-developers/?WT.mc_id=-blog-scottha)
+- [Practical Microservices with Dapr and .NET: A developer's guide to building cloud-native applications using the Dapr event-driven runtime](https://www.amazon.com/Practical-Microservices-Dapr-NET-cloud-native-ebook/dp/B08P5L81X8/)
 
-<div align="right">
-  <b><a href="#contents">↥ Back To Top</a></b>
-</div>
  

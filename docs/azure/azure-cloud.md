@@ -1,5 +1,5 @@
 
-# Azure Application Architecture
+# Azure Cloud
 
 ## 📘 Resources
 - [Azure Fundamentals part 1: Describe core Azure concepts](https://docs.microsoft.com/en-us/learn/paths/az-900-describe-cloud-concepts/)
@@ -42,7 +42,5 @@
 
 ## Courses
 - [Developing Solutions for Microsoft Azure (AZ-204)](https://www.pluralsight.com/paths/developing-solutions-for-microsoft-azure-az-204)
-<div align="right">
-  <b><a href="#contents">↥ Back To Top</a></b>
-</div>
+
 	

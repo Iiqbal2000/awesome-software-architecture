@@ -8,7 +8,9 @@
 - [.NET Microservices: Architecture for Containerized .NET Applications](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/)
 - [Cloud-Native learning resources for .NET developers](https://devblogs.microsoft.com/dotnet/cloud-native-learning-resources-for-net-developers/)
 - [mfornos/awesome-microservices](https://github.com/mfornos/awesome-microservices)
-
+- [Start Building .NET Microservices Today, Step by Step](https://dotnetmicroservices.com/)
+- [Sairyss/distributed-systems-topics](https://github.com/Sairyss/distributed-systems-topics) - Topics and resources related to distributed systems, system design, microservices, scalability and performance, etc
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
 ## 📕 Articles
 - [Microservices - Martin Fowler](https://martinfowler.com/articles/microservices.html)
 - [Design a microservice-oriented application](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/multi-container-microservice-net-applications/microservice-application-design)
@@ -91,6 +93,7 @@
 - [SCALABLE MICROSERVICES ARCHITECTURE WITH .NET MADE EASY – A TUTORIAL](https://www.endava.com/en/blog/Engineering/2022/Scalable-Microservices-Architecture-with-NET-Made-Easy-a-Tutorial)
 - [How (not) to cut microservices](https://event-driven.io/en/how_to_cut_microservices/)
 - [Data Consistency in Microservices Architecture](https://medium.com/garantibbva-teknoloji/data-consistency-in-microservices-architecture-5c67e0f65256)
+- [Event Sourcing and Microservices](https://zimarev.com/blog/event-sourcing/microservices/)
 
 ## 📺 Videos
 
@@ -134,13 +137,18 @@
 - [Building FeedR - Message Broker template (Microservices with .NET 6.0) episode #8](https://www.youtube.com/watch?v=b_BBPrc2mYQ)
 - [Building FeedR - Apache Pulsar integration (Microservices with .NET 6.0) episode #9](https://www.youtube.com/watch?v=WB72UGqTDoY)
 - [Building FeedR - Message Correlation ID (Microservices with .NET 6.0) episode #10](https://www.youtube.com/watch?v=HXmOJR653FI)
+- [Async Web API testing with TaskCompletionSource (Microservices with .NET 6.0) - FeedR episode #11](https://www.youtube.com/watch?v=N-ofc345-58)
+- [Portainer microservices deployment (Microservices with .NET 6.0) - FeedR episode #12](https://www.youtube.com/watch?v=tBl422FiEBY)
 - [.NET Microservices Basics Course](https://www.youtube.com/watch?v=ByYyk8eMG6c)
 - [Building Event-Driven Microservices with Event Sourcing and CQRS - Lidan Hifi](https://www.youtube.com/watch?v=XWTrcBqXi6s)
 - [Light and Dark Side of the Event-Driven Design • Oskar Dudycz • Devoxx Poland 2021](https://www.youtube.com/watch?v=0pYmuk0-N_4)
-
+- [Microservices gets it WRONG defining Service Boundaries](https://www.youtube.com/watch?v=Uc7SLJbKAGo)
+- [Microservices with .NET 6 and AWS Tutorial - Part 1](https://www.youtube.com/watch?v=ioa5RolwPKQ)
+- [Microservices with .NET 6 and AWS Tutorial - Part 2](https://www.youtube.com/watch?v=4hZ5ujckDXE)
+- [Microservices with .NET 6 and AWS Tutorial - Part 3](https://www.youtube.com/watch?v=mCLHw3GTHOo)
+- [Microservices with .NET 6 and AWS Tutorial - Part 4](https://www.youtube.com/watch?v=wXNDuF4J6Uc)
 ## 📦 Libraries
 
-- [dotnet/tye](https://github.com/dotnet/tye) - Tye is a tool that makes developing, testing, and deploying microservices and distributed applications easier. Project Tye includes a local orchestrator to make developing microservices easier and the ability to deploy microservices to Kubernetes with minimal configuration.
 - [rebus-org/Rebus](https://github.com/rebus-org/Rebus) - 🚌 Simple and lean service bus implementation for .NET
 - [dotnetcore/CAP](https://github.com/dotnetcore/CAP) - Distributed transaction solution in micro-service base on eventually consistency, also an eventbus with Outbox pattern
 - [MassTransit/MassTransit](https://github.com/MassTransit/MassTransit) - Distributed Application Framework for .NET
@@ -165,7 +173,9 @@
 - [go-kratos/kratos](https://github.com/go-kratos/kratos) - A Go framework for microservices.
 - [GDATASoftwareAG/motornet](https://github.com/GDATASoftwareAG/motornet) - Motor.NET is a microservice framework based on Microsoft.Extensions.Hosting
 - [NHadi/Dermayon](https://github.com/NHadi/Dermayon) - Dermayon is Library for supporting build large application,distributed application, scalable, microservices, cqrs, event sourcing, including generic ef repository pattern with unit of work, generic mongo repository pattern with unit of work, kafka, etc
-
+- [Eventuous/eventuous](https://github.com/Eventuous/eventuous) - Minimalistic Event Sourcing library for .NET
+- [Bullabs/Qitar](https://github.com/Bullabs/Qitar) - Domain Driven Design oriented application framework.
+- [devmentors/micro-framework](https://github.com/devmentors/micro-framework) - Micro framework is a set of helpful components for building the microservices applications.
 ## 🚀 Samples
 
 - [eShopOnContainers](https://github.com/dotnet-architecture/eShopOnContainers) - Cross-platform .NET sample microservices and container based application that runs on Linux Windows and macOS. Powered by .NET 5, Docker Containers and Azure Kubernetes Services. Supports Visual Studio, VS for Mac and CLI based environments with Docker CLI, dotnet CLI, VS Code or any other code editor.
@@ -227,19 +237,27 @@
 - [devmentors/Inflow-micro](https://github.com/devmentors/Inflow-micro)
 - [anhkhoadx/Microservices](https://github.com/anhkhoadx/Microservices)
 - [NHadi/Pos](https://github.com/NHadi/Pos) - Sample Application DDD, Reactive Microservices, CQRS Event Sourcing Powered by DERMAYON LIBRARY
+- [m-jovanovic/event-reminder](https://github.com/m-jovanovic/event-reminder) - .NET Core Web API for seamless event organization with configurable notification systems.
+- [devmentors/myspot-micro](https://github.com/devmentors/myspot-micro)
+- [AleksK1NG/Java-Spring-CQRS-Microservice](https://github.com/AleksK1NG/Java-Spring-CQRS-Microservice) - Java-Spring-CQRS-Microservice
+- [desenvolvedor-io/dev-store](https://github.com/desenvolvedor-io/dev-store) - A microservices e-commerce reference application built with ASP.NET 6
 ## 📚 Books
 - [Microservices Architecture and Step by Step Implementation on .NET](https://aspnetrun.azurewebsites.net/Microservices)
-- [Building Microservices: Designing Fine-Grained Systems 1st Edition](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1491950358)
+- [Building Microservices: Designing Fine-Grained Systems, 2nd Edition](https://www.amazon.com/Building-Microservices-Designing-Fine-Grained-Systems/dp/1492034029)
 - [Microservices Patterns: With examples in Java 1st Edition](https://www.manning.com/books/microservices-patterns)
+- [Production-Ready Microservices: Building Standardized Systems Across an Engineering Organization](https://www.amazon.com/Production-Ready-Microservices-Susan-Fowler/dp/1491965975)
 - [Monolith to Microservices: Evolutionary Patterns to Transform Your Monolith 1st Edition](https://www.amazon.com/Monolith-Microservices-Evolutionary-Patterns-Transform/dp/1492047848)
+- [Reactive Microservices Architecture](https://www.goodreads.com/book/show/29630482-reactive-microservices-architecture)
+- [Microservice Architecture: Aligning Principles, Practices, and Culture](https://www.amazon.com/Microservice-Architecture-Aligning-Principles-Practices/dp/1491956259)
 - [Microservices in .NET Core, Second Edition](https://www.manning.com/books/microservices-in-net-core-second-edition)
 - [Microservices in Action](https://www.manning.com/books/microservices-in-action)
 - [Microservices Security in Action](https://www.manning.com/books/microservices-security-in-action?query=Microservices)
 - [Building Microservices with ASP.NET Core: Develop, Test, and Deploy Cross-Platform Services in the Cloud](https://www.amazon.com/Building-Microservices-ASP-NET-Core-Cross-Platform/dp/1491961732)
 - [Building Event-Driven Microservices: Leveraging Organizational Data at Scale](https://www.amazon.com/Building-Event-Driven-Microservices-Leveraging-Organizational/dp/1492057894)
+- [Microservices: Up and Running: A Step-by-Step Guide to Building a Microservices Architecture](https://www.amazon.com/Microservices-Step-Step-Microservice-Architecture/dp/1492075450)
 - [Practical Microservices with Dapr and .NET: A developer's guide to building cloud-native applications using the Dapr event-driven runtime](https://www.amazon.com/Practical-Microservices-Dapr-NET-cloud-native/dp/1800568371)
-
-
-<div align="right">
-  <b><a href="#contents">↥ Back To Top</a></b>
-</div>
+- [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/)
+- [Microservices for the Enterprise: Designing, Developing, and Deploying](https://www.amazon.com/Microservices-Enterprise-Designing-Developing-Deploying/dp/1484238575/)
+- [Embracing Microservices Design: A practical guide to revealing anti-patterns and architectural pitfalls to avoid microservices fallacies](https://www.amazon.com/Embracing-Microservices-Design-anti-patterns-architectural/dp/180181838X/ref=pd_sbs_52/142-1174349-9952515)
+- [Practical Event-Driven Microservices Architecture: Building Sustainable and Highly Scalable Event-Driven Microservices](https://www.amazon.com/Practical-Event-Driven-Microservices-Architecture-Sustainable/dp/1484274679/)
+- [Practical Microservices with Dapr and .NET: A developer's guide to building cloud-native applications using the Dapr event-driven runtime](https://www.amazon.com/Practical-Microservices-Dapr-NET-cloud-native-ebook/dp/B08P5L81X8/)

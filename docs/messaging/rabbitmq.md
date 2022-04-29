@@ -45,6 +45,11 @@
 - [RabbitMQ in .NET: handling large messages](https://dotnetcodr.com/2014/06/12/rabbitmq-in-net-handling-large-messages/)
 - [RabbitMQ in .NET C#: basic error handling in Receiver](https://dotnetcodr.com/2014/06/16/rabbitmq-in-net-c-basic-error-handling-in-receiver/)
 - [RabbitMQ in .NET C#: more complex error handling in the Receiver](https://dotnetcodr.com/2014/06/19/rabbitmq-in-net-c-more-complex-error-handling-in-the-receiver/)
+- [Can we have multiple subscribers for RabbitMQ queue?](https://stackoverflow.com/questions/42351130/can-we-have-multiple-subscribers-for-rabbitmq-queue)
+- [publisher-confirms](https://www.rabbitmq.com/confirms.html#publisher-confirms)
+- [(Consumer) Delivery Acknowledgements](https://www.rabbitmq.com/confirms.html#consumer-acknowledgements)
+- [Introducing Publisher Confirms](https://blog.rabbitmq.com/posts/2011/02/introducing-publisher-confirms)
+- [Publisher confirms with RabbitMQ and C#](https://rianjs.net/2013/12/publisher-confirms-with-rabbitmq-and-c-sharp)
 
 ## 📺 Videos
 - [The best online training tool for RabbitMQ](https://training.cloudamqp.com/)
@@ -56,6 +61,8 @@
 - [Understand RabbitMQ [AMQP Protocol] - RabbitMQ Beginner to Advanced Tutorial - Part 01](https://www.youtube.com/watch?v=ui005IK8QZ8)
 - [Fanout Exchange in RabbitMQ [AMQP Protocol] - RabbitMQ Beginner to Advanced Tutorial - Part 02](https://www.youtube.com/watch?v=z-32VSl9t3s)
 - [RabbitMQ C# [RabbitMQ .Net] Implementation - RabbitMQ Beginner to Advanced Tutorial - Part 03](https://www.youtube.com/watch?v=3erQZTV52CI)
+- [RabbitMQ Best Practice | Webinar with CloudAMQP](https://www.youtube.com/watch?v=HzPOQsMWrGQ)
+- [How to Use RabbitMQ in ASP.NET Core](https://code-maze.com/aspnetcore-rabbitmq/)
 
 ## 📚 Books
 - [The Optimal RabbitMQ Guide](https://www.cloudamqp.com/rabbitmq_ebook.html)
@@ -63,5 +70,8 @@
 - [RabbitMQ in Depth](https://www.manning.com/books/rabbitmq-in-depth)
 - [RabbitMQ Essentials - Second Edition](https://www.packtpub.com/product/rabbitmq-essentials-second-edition/9781789131666)
 
-## Libraries
+## 📦 Libraries
 - [rabbitmq/rabbitmq-stream-dotnet-client](https://github.com/rabbitmq/rabbitmq-stream-dotnet-client) - RabbitMQ client for the stream protocol
+
+## Samples
+- [hgmauri/sample-rawrabbit-mediatr](https://github.com/hgmauri/sample-rawrabbit-mediatr) - Example of using RabbitMQ with RawRabbit and MediatR in .NET 5

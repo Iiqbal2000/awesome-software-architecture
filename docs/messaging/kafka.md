@@ -37,6 +37,7 @@
 - [Using Apache Kafka for Real-Time Event Processing at New Relic](https://newrelic.com/blog/how-to-relic/apache-kafka-event-processing)
 - [Effective Strategies for Kafka Topic Partitioning](https://newrelic.com/blog/best-practices/effective-strategies-kafka-topic-partitioning)
 - [Kafka Connect Deep Dive – Converters and Serialization Explained](https://www.confluent.io/blog/kafka-connect-deep-dive-converters-serialization-explained/)
+- [Top 5 Things Every Apache Kafka Developer Should Know](https://www.confluent.io/en-gb/blog/5-things-every-kafka-developer-should-know/)
 ## 📺 Videos
 - [Course | Apache Kafka® Fundamentals](https://www.youtube.com/playlist?list=PLa7VYi0yPIH2PelhRHoFR5iQgflg-y6JA)
 - [Apache Kafka® Tutorials | Kafka 101](https://www.youtube.com/playlist?list=PLa7VYi0yPIH0KbnJQcMv5N9iW8HkZHztH)
@@ -56,6 +57,13 @@
 - [confluentinc/confluent-kafka-dotnet/](https://github.com/confluentinc/confluent-kafka-dotnet/) - Confluent's Apache Kafka .NET client
 - [edenhill/kcat](https://github.com/edenhill/kcat) - Generic command line non-JVM Apache Kafka producer and consumer
 - [Confluent.SchemaRegistry](https://www.nuget.org/packages/Confluent.SchemaRegistry/)
-
+- [provectus/kafka-ui](https://github.com/provectus/kafka-ui) - Open-Source Web GUI for Apache Kafka Management
+- [Farfetch/kafka-flow](https://github.com/Farfetch/kafka-flow) - KafkaFlow is a .NET framework to create Kafka based applications, simple to use and extend.
+- [Farfetch/kafka-flow-retry-extensions](https://github.com/Farfetch/kafka-flow-retry-extensions) - Kafka Flow Retry Patterns Extensions
 ## 🚀 Samples
 - [dcomartin/Kafka.Demo](https://github.com/dcomartin/Kafka.Demo)
+- [oskardudycz/kafka-connect](https://github.com/oskardudycz/kafka-connect)
+
+## Books
+- [Kafka: The Definitive Guide: Real-Time Data and Stream Processing at Scale 2nd Edition](https://www.amazon.com/Kafka-Definitive-Real-Time-Stream-Processing/dp/1492043087/)
+- [Kafka Streams in Action: Real-time apps and microservices with the Kafka Streams API](https://www.amazon.com/Kafka-Streams-Action-Real-time-microservices/dp/1617294470/)

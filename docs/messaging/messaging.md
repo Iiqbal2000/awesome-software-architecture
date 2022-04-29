@@ -2,11 +2,12 @@
 # Messaging 
 
 ## 📘 Resources
-
+- [clemensv/messaging](https://github.com/clemensv/messaging) - Resource collection for messaging and eventing
 - [Messaging Playlist - CodeOpinion](https://www.youtube.com/playlist?list=PLThyvG1mlMzm2FyVpKDiU2c7VtrB2Zezg)
 - [DDD and Messaging Architectures](https://verraes.net/2019/05/ddd-msg-arch/)
 - [Martin Kleppmann Yotube](https://www.youtube.com/channel/UClB4KPy5LkJj1t3SgYVtMOQ/videos)
-
+- [Sairyss/distributed-systems-topics](https://github.com/Sairyss/distributed-systems-topics) - Topics and resources related to distributed systems, system design, microservices, scalability and performance, etc
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
 ## 📕 Articles
 
 - [Messaging patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/category/messaging) 
@@ -75,7 +76,7 @@
 - [Event Feeds: Simple and reliable messaging infrastructure](https://www.erikheemskerk.nl/event-feeds/)
 - [What's the difference between a command and an event?](https://event-driven.io/en/whats_the_difference_between_event_and_command/)
 - [Events should be as small as possible, right?](https://event-driven.io/en/events_should_be_as_small_as_possible/)
-
+- [How to build a simple event pipeline](https://event-driven.io/en/how_to_build_simple_event_pipeline/)
 ## 📺 Videos
 
 - [Handling Concurrency with Message-IDs | Event Driven Architecture](https://www.youtube.com/watch?v=wefvl2ohiQc)
@@ -105,6 +106,13 @@
 - [RPC vs Messaging: When to use which?](https://www.youtube.com/watch?v=LMKVzguhFw4)
 - [Beyond REST and RPC: Asynchronous Eventing and Messaging Patterns](https://www.youtube.com/watch?v=6zs-PhgfLU4)
 - [Modern .NET Messaging using MassTransit](https://www.youtube.com/watch?v=jQNQDLv7QmU)
+- [Was that message processed? Asynchronous Request-Response Pattern](https://www.youtube.com/watch?v=6UC6btG3wVI)
+- [Messaging Building Blocks: Commands & Events](https://www.youtube.com/watch?v=vw11J2BN7lY)
+- [Message delivery (at least-once, at most-once, exactly once?) | Messaging in distributed systems](https://www.youtube.com/watch?v=l6nLt4Km1cA)
+- [Message Ordering in Pub/Sub or Queue](https://www.youtube.com/watch?v=ILEb5LsSf5w)
+- [Avoiding a QUEUE Backlog Disaster with Backpressure & Flow Control](https://www.youtube.com/watch?v=BIGiLJJlE08)
+- [Avoiding Batch Jobs by a message in the FUTURE](https://www.youtube.com/watch?v=zWgqj2OEKX8)
+- [Message deduplication | Messaging in distributed systems - DevMentors](https://www.youtube.com/watch?v=TuMtG_27Khg)
 ## 📦 Libraries
 
 - [Enexure.MicroBus](https://github.com/Lavinski/Enexure.MicroBus) - MicroBus is a simple in process Mediator for .NET
@@ -132,7 +140,6 @@
 - [Darker](https://github.com/BrighterCommand/Darker) - The query-side counterpart of Brighter
 - [MassTransit](https://github.com/MassTransit/MassTransit) - Distributed Application Framework for .NET
 - [ViennaNET](https://github.com/Raiffeisen-DGTL/ViennaNET) - Framework for quickly creating enterprise microservices on .NET Core
-- [Fabrik.SimpleBus](https://github.com/benfoster/Fabrik.SimpleBus) - A simple In-Process Message Bus for .NET
 - [MemBus](https://github.com/flq/MemBus/tree/master/MemBus) - Pure In-Memory Publish/Subscribe .NET Bus
 - [Cysharp/MagicOnion](https://github.com/Cysharp/MagicOnion) - Unified Realtime/API framework for .NET platform and Unity.
 - [eventflow/EventFlow](https://github.com/eventflow/EventFlow) - Async/await first CQRS+ES and DDD framework for .NET
@@ -164,13 +171,18 @@
 - [NHadi/Dermayon](https://github.com/NHadi/Dermayon) - Dermayon is Library for supporting build large application,distributed application, scalable, microservices, cqrs, event sourcing, including generic ef repository pattern with unit of work, generic mongo repository pattern with unit of work, kafka, etc
 - [cloudnative-netcore/netcorekit](https://github.com/cloudnative-netcore/netcorekit) - A crafted toolkit for building cloud-native apps on the .NET platform
 - [lucabriguglia/OpenCQRS](https://github.com/lucabriguglia/OpenCQRS) - .NET Standard framework to create simple and clean design. Advanced features for DDD, CQRS and Event Sourcing.
-
-## Samples
+- [Eventuous/eventuous](https://github.com/Eventuous/eventuous) - Minimalistic Event Sourcing library for .NET
+- [christophe-mommer/CQELight](https://github.com/christophe-mommer/CQELight)
+- [Bullabs/Qitar](https://github.com/Bullabs/Qitar) - Domain Driven Design oriented application framework.
+- [devmentors/micro-framework](https://github.com/devmentors/micro-framework) - Micro framework is a set of helpful components for building the microservices applications.
+## 🚀 Samples
 - [devmentors/Messaging-In-Distributed-Systems](https://github.com/devmentors/Messaging-In-Distributed-Systems) - Code for all the messaging-related concepts/patterns described on YouTube during "Messaging in Distributed Systems" series.
 
 ## 📚 Books
 - [Enterprise Integration Patterns](https://amazon.com/o/asin/0321200683/ref=nosim/enterpriseint-20)
-
-<div align="right">
-  <b><a href="#contents">↥ Back To Top</a></b>
-</div>
+- [Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321/)
+- [Making Sense of Stream Processing](https://www.goodreads.com/book/show/29598815-making-sense-of-stream-processing)
+- [Streaming Systems: The What, Where, When, and How of Large-Scale Data Processing](https://www.amazon.com/Streaming-Systems-Where-Large-Scale-Processing/dp/1491983876)
+- [Designing Event-Driven Systems](https://www.confluent.io/designing-event-driven-systems/)
+- [Building Event-Driven Microservices: Leveraging Organizational Data at Scale](https://www.amazon.com/Building-Event-Driven-Microservices-Leveraging-Organizational/dp/1492057894)
+- [Practical Event-Driven Microservices Architecture: Building Sustainable and Highly Scalable Event-Driven Microservices](https://www.amazon.com/Practical-Event-Driven-Microservices-Architecture-Sustainable/dp/1484274679/)
